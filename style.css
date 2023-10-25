@@ -6,3 +6,5 @@
 .list_item{
 	padding-right: 10%;
 }
+
+input:checked + div { display: none; }
