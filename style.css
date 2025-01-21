@@ -7,9 +7,11 @@
 	padding-right: 10%;
 }
 
-.li {
-  margin: 15px 0;
+ul li {
+    margin-bottom: 5px;
 }
+
+
 
 .footer { 
     position: fixed; 
