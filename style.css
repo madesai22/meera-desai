@@ -3,6 +3,10 @@
 	padding-right:  10%;
 }
 
+body {
+    font-size: 18px; /* Adjust the size as needed */
+}
+
 .list_item{
 	padding-right: 10%;
 }
