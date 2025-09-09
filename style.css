@@ -24,6 +24,10 @@
     margin-bottom: 4px; 
 }
 
+.updates-list li {
+    font-size: 20px;
+    margin-bottom: 1px; 
+
 .footer { 
     position: fixed; 
     bottom: 0; 
