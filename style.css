@@ -41,5 +41,7 @@
 label[for="toggle-older"] {
   cursor: pointer;
 }
-/* 
-input:checked + div { display: none; } */
+
+p small {
+  font-size: 16px; 
+}
