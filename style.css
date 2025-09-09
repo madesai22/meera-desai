@@ -25,7 +25,7 @@
 }
 
 .updates-list li {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 1px; 
 
 .footer { 
@@ -34,4 +34,12 @@
     left: 0;
 }
 
-input:checked + div { display: none; }
+#toggle-older:checked ~ .older {
+  display: none;
+}
+
+label[for="toggle-older"] {
+  cursor: pointer;
+}
+/* 
+input:checked + div { display: none; } */
