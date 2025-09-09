@@ -35,7 +35,7 @@
 }
 
 #toggle-older:checked ~ .older {
-  display: none;
+  display: none !important;
 }
 
 label[for="toggle-older"] {
