@@ -12,7 +12,16 @@
 }
 
 .h3 {
-	font-size: 40px;
+	font-size: 42px;
+}
+
+h3, p{
+margin:0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
 }
 
 .list_item{
@@ -43,5 +52,5 @@ label[for="toggle-older"] {
 }
 
 p small {
-  font-size: 20px; 
+  font-size: 30px; 
 }
