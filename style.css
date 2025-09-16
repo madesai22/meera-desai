@@ -1,22 +1,28 @@
 .paragraph{
 	padding-left:  10%;
 	padding-right:  10%;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.paragraph {
-    font-size: 24px;
+h1{
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.h2 {
-	font-size: 48px;
+
+h2 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.h3 {
-	font-size: 42px;
+h3 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h3, p{
-margin:1;
+margin:2;
 }
 
 a {
@@ -36,6 +42,7 @@ a {
 .updates-list li {
     font-size: 24px;
     margin-bottom: 1px; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer { 
