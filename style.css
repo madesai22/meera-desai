@@ -5,7 +5,7 @@
 }
 
 .paragraph p {
-  margin-top: 8px; /* Adjust the value as needed */
+  margin-top: 8px; 
 }
 
 h1{
@@ -37,6 +37,11 @@ a {
 .pub-list li {
     font-size: 24px;
     margin-bottom: 4px; 
+}
+
+.pub-list .title {
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 .updates-list li {
