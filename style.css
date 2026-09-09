@@ -1,7 +1,7 @@
 .paragraph{
 	padding-left:  10%;
 	padding-right:  10%;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .paragraph p {
@@ -35,8 +35,13 @@ a {
 }
 
 .pub-list li {
-    font-size: 24px;
-    margin-bottom: 4px; 
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.pub-list .authors {
+    display: inline-block;
+    max-width: 360px;
 }
 
 .pub-list .title {
@@ -45,8 +50,8 @@ a {
 }
 
 .updates-list li {
-    font-size: 24px;
-    margin-bottom: 10px; 
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
 .footer { 
@@ -64,5 +69,27 @@ label[for="toggle-older"] {
 }
 
 p small {
-  font-size: 18px; 
+  font-size: 18px;
+}
+
+/* Phone / small screens: scale everything down */
+@media (max-width: 600px) {
+  .paragraph {
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 17px;
+  }
+
+  .pub-list li,
+  .updates-list li {
+    font-size: 17px;
+  }
+
+  .pub-list .authors {
+    max-width: 100%;
+  }
+
+  h1 { font-size: 30px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 19px; }
 }
