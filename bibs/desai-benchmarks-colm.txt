@@ -1,0 +1,8 @@
+@inproceedings{
+  desai2026what,
+  title={What {AI} Benchmarks Actually Measure: Adapting Convergent and Discriminant Validity to Interrogate Fifty-Six {AI} Benchmarks},
+  author={Meera Desai and Sang T. Truong and Hanna Wallach and Alex Chouldechova and A. Feder Cooper and Jean Garcia-Gathright and Daniel E. Ho and Abigail Z. Jacobs and Sanmi Koyejo and Nicholas Pangakis and Angelina Wang},
+  booktitle={Third Conference on Language Modeling},
+  year={2026},
+  url={https://arxiv.org/pdf/2609.08812}
+}

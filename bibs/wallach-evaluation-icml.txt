@@ -1,0 +1,7 @@
+@inproceedings{wallach2025position,
+    title={Position: Evaluating Generative {AI} Systems Is a Social Science Measurement Challenge},
+    author={Hanna Wallach and Meera Desai and A. Feder Cooper and Angelina Wang and Chad Atalla and Solon Barocas and Su Lin Blodgett and Alexandra Chouldechova and Emily Corvi and P. Alex Dow and Jean Garcia-Gathright and Alexandra Olteanu and Nicholas J Pangakis and Stefanie Reed and Emily Sheng and Dan Vann and Jennifer Wortman Vaughan and Matthew Vogel and Hannah Washington and Abigail Z. Jacobs},
+    booktitle={Forty-second International Conference on Machine Learning Position Paper Track},
+    year={2025},
+    url={https://arxiv.org/pdf/2502.00561}
+}

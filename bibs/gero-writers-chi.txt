@@ -1,0 +1,7 @@
+@inproceedings{gero2025creative,
+  title={Creative Writers' Attitudes on Writing as Training Data for Large Language Models},
+  author={Gero, Katy Ilonka and Desai, Meera and Schnitzler, Carly and Eom, Nayun and Cushman, Jack and Glassman, Elena L},
+  booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+  pages={1--16},
+  year={2025}
+}

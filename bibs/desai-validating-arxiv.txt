@@ -1,0 +1,6 @@
+@article{desai2026validating,
+  title={Validating LLMs in social science: Epistemic threats and emerging norms},
+  author={Desai, Meera and Card, Dallas and Jacobs, Abigail Z},
+  journal={arXiv preprint arXiv:2607.07915},
+  year={2026}
+}
