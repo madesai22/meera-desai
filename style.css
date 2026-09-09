@@ -1,7 +1,7 @@
 .paragraph{
 	padding-left:  10%;
 	padding-right:  10%;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .paragraph p {
@@ -9,16 +9,16 @@
 }
 
 h1{
-  font-size: 48px;
+  font-size: 36px;
 }
 
 
 h2 {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 h3, p{
@@ -35,7 +35,7 @@ a {
 }
 
 .pub-list li {
-    font-size: 26px;
+    font-size: 20px;
     margin-bottom: 4px;
 }
 
@@ -46,12 +46,25 @@ a {
 
 .pub-list .title {
   display: inline-block;
+  vertical-align: top;   /* pin the list bullet to the first line of the title, not the last */
   margin-bottom: 5px;
 }
 
+.updates-heading {
+    text-align: center;
+}
+
+.updates-list {
+    list-style: none;
+}
+
 .updates-list li {
-    font-size: 26px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    /* line-height and margin-bottom are kept equal: the gap between updates is
+       exactly one line tall, so the box always clips on a line boundary and you
+       never see half a line of text. Shrink both together for a tighter list. */
+    line-height: 1;
+    margin-bottom: 1.2em;
 }
 
 .footer { 
@@ -61,9 +74,16 @@ a {
 }
 
 .updates-scroll {
-  max-height: 210px;
+  font-size: 20px;               /* must match .updates-list li so the line grid lines up */
+  max-height: 14.1em;             /* 13 line-heights (1.2em) -> clips on a line boundary; ~5 updates */
   overflow-y: auto;
-  padding-right: 12px;
+  margin-left: 10%;              /* inset the box itself so its scrollbar sits at the box edge, not the page edge */
+  margin-right: 10%;
+}
+
+.updates-scroll ul {
+  margin: 0;                     /* kill default <ul> margin so the first line starts at the top */
+  padding: 0;                    /* drop the default list indent; align with paragraph text */
 }
 
 p small {
@@ -79,15 +99,21 @@ p small {
   }
 
   .pub-list li,
-  .updates-list li {
+  .updates-list li,
+  .updates-scroll {
     font-size: 17px;
+  }
+
+  .updates-scroll {
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .pub-list .authors {
     max-width: 100%;
   }
 
-  h1 { font-size: 30px; }
-  h2 { font-size: 24px; }
-  h3 { font-size: 19px; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 18px; }
 }
