@@ -41,7 +41,7 @@ a {
 
 .pub-list .authors {
     display: inline-block;
-    max-width: 360px;
+    max-width: 300px;
 }
 
 .pub-list .title {
