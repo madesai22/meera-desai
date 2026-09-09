@@ -117,6 +117,11 @@ a {
   overflow-y: auto;
   margin-left: 10%;              /* inset the box itself so its scrollbar sits at the box edge, not the page edge */
   margin-right: 10%;
+  padding-top: 0.6em;          /* breathing room above the first line; scrolls away and doesn't affect the bottom line-boundary clip */
+  padding-left: 1em;           /* horizontal padding keeps the vertical line grid intact so the box still clips on a line boundary */
+  padding-right: 1em;
+  background-color: rgba(70, 130, 180, 0.06);   /* light transparent blue tint to set the box apart from the page */
+  border-radius: 8px;
 }
 
 .updates-scroll ul {
