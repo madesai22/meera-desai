@@ -41,7 +41,7 @@ a {
 
 .pub-list .authors {
     display: inline-block;
-    max-width: 300px;
+    max-width: 600px;
 }
 
 .pub-list .title {
@@ -60,12 +60,10 @@ a {
     left: 0;
 }
 
-#toggle-older:checked ~ .older {
-  display: none !important;
-}
-
-label[for="toggle-older"] {
-  cursor: pointer;
+.updates-scroll {
+  max-height: 210px;
+  overflow-y: auto;
+  padding-right: 12px;
 }
 
 p small {
