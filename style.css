@@ -1,7 +1,7 @@
 .paragraph{
 	padding-left:  10%;
 	padding-right:  10%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .paragraph p {
@@ -9,16 +9,16 @@
 }
 
 h1{
-  font-size: 36px;
+  font-size: 32px;
 }
 
 
 h2 {
-  font-size: 28px;
+  font-size: 25px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h3, p{
@@ -35,7 +35,7 @@ a {
 }
 
 .pub-list li {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 4px;
 }
 
@@ -59,7 +59,7 @@ a {
 }
 
 .updates-list li {
-    font-size: 20px;
+    font-size: 18px;
     /* line-height and margin-bottom are kept equal: the gap between updates is
        exactly one line tall, so the box always clips on a line boundary and you
        never see half a line of text. Shrink both together for a tighter list. */
@@ -74,7 +74,7 @@ a {
 }
 
 .updates-scroll {
-  font-size: 20px;               /* must match .updates-list li so the line grid lines up */
+  font-size: 18px;               /* must match .updates-list li so the line grid lines up */
   max-height: 14.1em;             /* 13 line-heights (1.2em) -> clips on a line boundary; ~5 updates */
   overflow-y: auto;
   margin-left: 10%;              /* inset the box itself so its scrollbar sits at the box edge, not the page edge */
@@ -87,7 +87,7 @@ a {
 }
 
 p small {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Phone / small screens: scale everything down */
