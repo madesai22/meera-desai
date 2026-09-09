@@ -5,7 +5,45 @@
 }
 
 .paragraph p {
-  margin-top: 8px; 
+  margin-top: 8px;
+}
+
+.links-row {
+  font-size: 19px;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 80%;
+  margin: 12px auto 0;
+}
+
+.links-row a {
+  white-space: nowrap;
+  margin: 0 2px;
+  display: inline-block;
+}
+
+.link-icon {
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.22em;
+  margin-right: 4px;
+}
+
+.link-icon-lg {
+  width: 1.55em;
+  height: 1.55em;
+  vertical-align: -0.15em;
+}
+
+.link-icon-xl {
+  width: 1.9em;
+  height: 1.9em;
+  vertical-align: -0.6em;
+}
+
+.link-sep {
+  color: #aaa;
+  margin: 0 8px;
 }
 
 h1{
@@ -102,6 +140,11 @@ p small {
   .updates-list li,
   .updates-scroll {
     font-size: 17px;
+  }
+
+  .links-row {
+    font-size: 16px;
+    max-width: 92%;
   }
 
   .updates-scroll {
