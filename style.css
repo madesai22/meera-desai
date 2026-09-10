@@ -113,7 +113,7 @@ a {
 
 .updates-scroll {
   font-size: 18px;               /* must match .updates-list li so the line grid lines up */
-  max-height: 10.8em;             /* 13 line-heights (1.2em) -> clips on a line boundary; ~5 updates */
+  max-height: 10em;             /* 13 line-heights (1.2em) -> clips on a line boundary; ~5 updates */
   overflow-y: auto;
   margin-left: 10%;              /* inset the box itself so its scrollbar sits at the box edge, not the page edge */
   margin-right: 10%;
